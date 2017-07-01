@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul
+      li Shubham
+    input(type='text').class-name#any-id
+    - var condition = true
+    if condition
+      p It's true
+
+    - var anyArray = [1,2,3,4,5]
+    for value in anyArray
+      p= value
+    block content
